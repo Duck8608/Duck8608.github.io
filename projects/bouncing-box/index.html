@@ -74,7 +74,7 @@
 			*/
 			function update() {
 				positionX = positionX + speed;
-				moveBoxTo(postionX)
+				moveBoxTo(positionX)
 				
 
 			};
@@ -87,7 +87,7 @@
 			function handleBoxClick() {
 				positionX = 0;
 				points = points + 1;
-				changeBoxText(1);
+				changeBoxText(points);
 				speed = speed + 3;
 				
 
