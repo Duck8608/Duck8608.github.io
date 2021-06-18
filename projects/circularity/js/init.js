@@ -72,8 +72,6 @@ circles.push(circle);
 
             // TODO 9 : Iterate over the array
            
-            
-        }
     
         /* 
         This Function should check the position of a circle that is passed to the 
