@@ -36,7 +36,9 @@ circles.push(circle);
 
         // TODO 3 / 8 : Call the drawCircle() function 
         
-        for (var loopCompleted = 0; loopCompleted < 100; loopCompeted++)
+        for (var loopCompleted = 0; loopCompleted <= 100; loopCompeted++) {
+            drawCircle()
+        }
 
         ////////////////////////////////////////////////////////////
         ///////////////// PROGRAM LOGIC ////////////////////////////
@@ -48,6 +50,9 @@ circles.push(circle);
         and check to see if it has drifted off the screen.         
         */
         function update() {
+            for ( var i = 0; i < circles.length; i++)
+            var eachCircle = circles[i];
+        }
             // TODO 4 : Update the circle's position //
 
             physikz.updatePosition(circles[0]);
